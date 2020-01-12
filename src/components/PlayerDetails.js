@@ -46,7 +46,7 @@ class PlayerDetails extends React.Component {
           return(
             <button key={item.pid} type="button" onClick={()=>this.handleFullDetails(item.pid)} className="btn btn-secondary">{item.name}</button>
           )
-        }):''}
+        }):'No Match Found'}
         {playerDetails && playerDetails.data?
             <div className="card">
               <div className="card-body">
